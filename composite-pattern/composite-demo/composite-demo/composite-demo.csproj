@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EA42C001-8062-4013-956E-C17E69033F5B}</ProjectGuid>
+    <ProjectGuid>{8AD8DDEF-AA1F-4E69-8A87-9908F0430E6D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>facade_demo</RootNamespace>
-    <AssemblyName>facade-demo</AssemblyName>
+    <RootNamespace>composite_demo</RootNamespace>
+    <AssemblyName>composite-demo</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Authorize.cs" />
-    <Compile Include="Caching.cs" />
-    <Compile Include="CrossCuttingConcernsFacade.cs" />
-    <Compile Include="CustomerManager.cs" />
-    <Compile Include="IAuthorize.cs" />
-    <Compile Include="ICaching.cs" />
-    <Compile Include="ILogging.cs" />
-    <Compile Include="Logging.cs" />
+    <Compile Include="Contractor.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="IPerson.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
