@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multiton-demo", "multiton-demo\multiton-demo.csproj", "{799341D3-42D6-4221-ACFB-D14355F65F26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799341D3-42D6-4221-ACFB-D14355F65F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{799341D3-42D6-4221-ACFB-D14355F65F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{799341D3-42D6-4221-ACFB-D14355F65F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{799341D3-42D6-4221-ACFB-D14355F65F26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F9CB482-8A0B-43A5-8BD3-194239E5AB0B}
+	EndGlobalSection
+EndGlobal
